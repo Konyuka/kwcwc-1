@@ -45,23 +45,23 @@ function Header() {
               <li>
                 <Link to="/signin" className="translate hover:scale-110  font-bold text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">What We Do</Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link to="/signin" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Corporate Responsibility</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link to="/signin" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Media Info</Link>
               </li>
               <li>
                 <Link to="/signin" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Resources</Link>
+              </li> */}
+              <li>
+                <Link to="#" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Gallery</Link>
               </li>
               <li>
-                <Link to="/signin" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Gallery</Link>
+                <Link to="#" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Blog</Link>
               </li>
               <li>
-                <Link to="/signin" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Blog</Link>
-              </li>
-              <li>
-                <Link to="/signin" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contacts</Link>
+                <Link to="#" className="translate hover:scale-110  font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contacts</Link>
               </li>
 
               {/* <li>
