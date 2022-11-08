@@ -30,25 +30,14 @@ function HeroHome()
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
-        {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pb-12 md:pt-2 md:pb-20">
 
-          {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Kenya Women & Children's <br />
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Wellness Center</span></h1>
-            <div className="max-w-3xl mx-auto">
+
+            <div className="max-w-5xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
                 The Kenya Women and Children's Wellness Centre is the inaugural project of James R. Jordan Foundation (JRJFI). JRJFI was established in 2000 by Mrs. Deloris Jordan in honor of her late husband, James. JRJFI is dedicated to strengthening families, motivating youth and ensuring high quality academic opportunities for children in underserved communities.
               </p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Who We Are</a>
-                </div>
-                <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">What We Do</a>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -56,8 +45,8 @@ function HeroHome()
           <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
-                <img className="mx-auto" src={HeroImage} width="768" height="432" alt="Hero" />
-                <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <img className="mx-auto" src="https://downloader.la/temp/[Downloader.la]-6369b40c6a676.jpg" width="768" height="432" alt="Hero" />
+                <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="1200" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
                     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hero-ill-a">
                       <stop stopColor="#FFF" offset="0%" />

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../partials/Header';
+import HeaderCustom from '../partials/HeaderCustom';
 import HeroHome from '../partials/HeroHome';
 import HeroCustom from '../partials/HeroCustom';
 import FeaturesHome from '../partials/Features';
@@ -15,6 +16,7 @@ function Home() {
 
       {/*  Site header */}
       <Header />
+      {/* <HeaderCustom /> */}
 
       {/*  Page content */}
       <main className="flex-grow">

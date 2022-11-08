@@ -19,20 +19,24 @@ function HeroCustom()
                 <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
                   <div class="absolute inset-0">
                     <img class="h-full w-full object-cover" src="https://downloader.la/temp/[Downloader.la]-6369aec7e9ba6.jpg" alt="People working on laptops" />
-                    <div class="absolute inset-0 bg-indigo-700 mix-blend-multiply"></div>
+                    <div class="absolute inset-0 bg-gradient-to-r from-indigo-800 to-teal-600 mix-blend-multiply"></div>
                   </div>
                   <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                     <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
                       <span class="block text-white">Kenya Women & Children's</span>
                       <span class="block text-indigo-200">Wellness Center</span>
                     </h1>
-                    <p class="mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl">
+                    <p class="italic mx-auto mt-6 max-w-lg text-center text-xl text-gray-300 sm:max-w-3xl">
                       We’re focused on reaching the poorest and most vulnerable people who are often living in fragile and conflict-affected states.
                     </p>
                     <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
-                      <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
-                        <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-indigo-700 shadow-sm hover:bg-indigo-50 sm:px-8">Get started</a>
-                        <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8">Live demo</a>
+                      <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-10 sm:space-y-0">
+                        <div>
+                          <a className="transform translate hover:scale-125 duration-700 btn text-white bg-blue-600 hover:bg-white hover:text-black w-full sm:w-auto sm:ml-4" href="#0">What We Do</a>
+                        </div>
+                        <div>
+                          <a className="transform translate hover:scale-125 duration-700 btn text-white bg-blue-600 hover:bg-white hover:text-black w-full mb-4 sm:w-auto sm:mb-0" href="#0">Who We Are</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -42,7 +46,7 @@ function HeroCustom()
 
             <div class="bg-gray-100">
               <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-                <p class="text-center text-base font-semibold text-gray-500">Trusted by over 5 very average small businesses</p>
+                <p class="text-center text-base font-semibold text-gray-500">Some of our Completed Projects</p>
                 <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
                   <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                     <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
